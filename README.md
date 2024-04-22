@@ -19,17 +19,20 @@ The project allowed me to learn and consolidate my knowledge on the following to
 Aswell as more mundane skills like time managment and the thinking necessary to overcome challenges.
 
 # Flaws with the project
--> The route calculation is flawed, the stations are right, but the printfs aren't, might fix this in the future. [FIXED] *1 *2
+-> The route calculation is flawed, the stations are right, but the printfs aren't, might fix this in the future. [FIXED] 
+
 -> A memory leak that originated from me not returning the pline variable in a function. [FIXED]
--> The variable names are at times confusing, I've improved a lot since then and it this project taught me a great deal on the topic [NOT FIXED] *3
+
+-> The variable names are at times confusing, I've improved a lot since then and it this project taught me a great deal on the topic [NOT FIXED] 
+
 
 # Notes and considerations
 
-*1 -> The route planner was intended to give the user every possible route between two stations, not just the shortest one, as such, it was possible for the program to give some seemingly nonsensical routes such as the following scenario
+-> The route planner was intended to give the user every possible route between two stations, not just the shortest one, as such, it was possible for the program to give some seemingly nonsensical routes such as the following scenario
 Line 1 - Station Origin -> Station Goal
 Line 3 - Station Goal
 This makes no sense, obviously, and it was fixed with a simple check to ignore the cases where the "transfer station"
 
-*2 -> Station names may, at times, be in reverse order.
+-> Station names may, at times, be in reverse order.
 
-*3 -> I didn't want to fix this as it didn't really impact the program's performance, I'd want to keep is a memento
+-> I didn't want to fix this as it didn't really impact the program's performance, I'd want to keep is a memento
