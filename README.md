@@ -19,11 +19,12 @@ The project allowed me to learn and consolidate my knowledge on the following to
 Aswell as more mundane skills like time managment and the thinking necessary to overcome challenges.
 
 # Flaws with the project
+## Only includes those known either at the time of submission or during a very brief review right before I posted this
 -> The route calculation is flawed, the stations are right, but the printfs aren't, might fix this in the future. [FIXED] 
 
 -> A memory leak that originated from me not returning the pline variable in a function. [FIXED]
 
--> The variable names are at times confusing, I've improved a lot since then and it this project taught me a great deal on the topic [NOT FIXED] 
+-> The variable names are at times confusing, I've improved a lot since then and it this project taught me a great deal on the topic
 
 
 # Notes and considerations
